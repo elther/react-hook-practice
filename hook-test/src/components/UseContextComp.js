@@ -8,7 +8,7 @@ const themes = {
   dark: {
     foreground: "#ffffff",
     background: "#222222"
-  },
+  }
 };
 
 const ThemeContext = React.createContext(themes.light);
