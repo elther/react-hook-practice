@@ -21,6 +21,7 @@ function App() {
       <UseEffectComp />
       <div>
         ext
+        
         <UseCallbackComp />
         <UseDebugValueComp />
         <UseImperativeHandleComp />
