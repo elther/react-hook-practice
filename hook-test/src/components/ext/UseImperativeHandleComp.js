@@ -1,5 +1,5 @@
 export default function UseImperativeHandleComp(props){
     return (
-      <div>this is UseImperativeHandleComp</div>
+      <div class="container">this is UseImperativeHandleComp</div>
     );
 }

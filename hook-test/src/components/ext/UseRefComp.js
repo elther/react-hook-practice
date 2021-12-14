@@ -1,5 +1,5 @@
 export default function UseRefComp(props){
     return (
-      <div>this is UseRefComp</div>
+      <div class="container">this is UseRefComp</div>
     );
 }

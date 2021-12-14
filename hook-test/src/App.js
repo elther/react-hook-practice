@@ -15,13 +15,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <UseStateComp />
       <UseContextComp />
       <UseEffectComp />
       <div>
         ext
-        
+
         <UseCallbackComp />
         <UseDebugValueComp />
         <UseImperativeHandleComp />

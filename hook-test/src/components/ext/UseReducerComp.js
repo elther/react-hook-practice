@@ -1,5 +1,5 @@
 export default function UseReducerComp(props){
     return (
-      <div>this is UseReducerComp</div>
+      <div class="container">this is UseReducerComp</div>
     );
 }

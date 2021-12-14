@@ -1,5 +1,5 @@
 export default function UseLayoutEffectComp(props){
     return (
-      <div>this is UseLayoutEffectComp</div>
+      <div class="container">this is UseLayoutEffectComp</div>
     );
 }
