@@ -1,5 +1,5 @@
 export default function UseMemoComp(props){
     return (
-      <div class="container">this is UseMemoComp</div>
+      <div className="container">this is UseMemoComp</div>
     );
 }
