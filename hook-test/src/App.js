@@ -2,11 +2,11 @@ import React, {useState} from 'react';
 import UseStateComp from './components/UseStateComp';
 import UseEffectComp from './components/UseEffectComp';
 import UseContextComp from './components/UseContextComp';
-import UseCallbackComp from './components/ext/UseCallbackComp';
+import UseCallbackComp from './components/ext/memoization/UseCallbackComp';
 import UseDebugValueComp from './components/ext/UseDebugValueComp';
 import UseImperativeHandleComp from './components/ext/UseImperativeHandleComp';
 import UseLayoutEffectComp from './components/ext/UseLayoutEffectComp';
-import UseMemoComp from './components/ext/UseMemoComp';
+import UseMemoComp from './components/ext/memoization/UseMemoComp';
 import UseReducerComp from './components/ext/UseReducerComp';
 import UseRefComp from './components/ext/UseRefComp';
 
@@ -21,13 +21,16 @@ function App() {
       <UseEffectComp />
       <div>
         <p><h1>ext</h1></p>
-        <UseCallbackComp />
         <UseDebugValueComp />
         <UseImperativeHandleComp />
-        <UseLayoutEffectComp />
-        <UseMemoComp />
+        <UseLayoutEffectComp />        
         <UseReducerComp />
         <UseRefComp />
+      </div>
+      <div>
+        <p><h1>memoization</h1></p>
+        <UseCallbackComp />
+        <UseMemoComp />
       </div>
     </div>
   );
